@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjeta {
+  background-color: rgb(4, 143, 4);
+  border: 1px solid rgb(152, 152, 233);
+  border-radius: 10px;
+  width: 25rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.valores {
+  margin-left: 2rem;
+}
+
+img {
+  width: 15rem;
+  width: 20rem;
+}
+
+.tarjeta-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-header p {
+  color: white;
+}
+
+input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  border-color: rgb(139, 139, 228);
+  width: 15rem;
+  padding: 0.7rem;
+}
+
+#pesos {
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 2rem;
+  width: 10rem;
+  padding: 0.9rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: orange;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.fa-trash-can {
+  margin-left: 1rem;
+  color: rgb(44, 73, 78);
+  font-size: 1.5rem;
+}
+
+.fa-trash-can {
+  cursor: pointer;
+  color: rgb(75, 44, 44);
+}
+
+.valores {
+  margin-left: 2rem;
+}
+.valores p {
+  font-size: 1.5rem;
+}
+
+.circunferencia {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.circulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pesos {
+  color: white;
+  font-size: 1.5rem;
+}

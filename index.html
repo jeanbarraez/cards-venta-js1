@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/aee38c2c34.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="tarjeta">
+        <div class="tarjeta-header">
+          <img src="asset/img/lapto2-r.png" alt="lapto" />
+          <p>Laptop Gamer AMD</p>
+
+          <input type="number" id="cantidad" placeholder="Cantidad" min="1" />
+
+          <input type="text" id="color" placeholder="Color" />
+
+          <span id="pesos">Precio:$400000</span>
+        </div>
+        <div>
+          <button id="calcular">Calcular Total</button>
+          <i id="papelera" class="fa-solid fa-trash-can"></i>
+        </div>
+      </div>
+      <div class="valores">
+        <p><b>Total: $</b> <span id="total">0</span></p>
+        <p><b>Cantidad:</b><span id="cantidad1">0</span></p>
+        <div class="circulo">
+          <p><b>Color:</b></p>
+          <div id="backGround" class="circunferencia"></div>
+        </div>
+      </div>
+    </div>
+    <script src="asset/js/cards.js"></script>
+  </body>
+</html>
